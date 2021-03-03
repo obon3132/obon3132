@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+ <html class="no-js" lang="ja">
+ <head>
+   <meta charset="utf-8">
+   <title>My Profile</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/profile.css">
+   <script src="./s/vendor/modernizr.custom.min.js"></script>
+   <script src="js/jquery-3.5.1.min.js"></script>
+   <script src="js/profile.js"></script>
+ </head>
+
+ <body>
+   <header class="main-header" id=home>
+           <div class="slideshow">
+               <div class="slideshow-slides">
+                   <a href="#" class="slide" id="slide-1"><img src="./img/slide-1.jpg" alt="メイン写真其の1" width="1600" height="550"></a>
+                   <a href="#" class="slide" id="slide-2"><img src="./img/slide-2.jpg" alt="メイン写真其の2" width="1600" height="550"></a>
+                   <a href="#" class="slide" id="slide-3"><img src="./img/slide-3.jpg" alt="メイン写真其の3" width="1600" height="550"></a>
+                   <a href="#" class="slide" id="slide-4"><img src="./img/slide-4.jpg" alt="メイン写真其の4" width="1600" height="550"></a>
+               </div>
+           </div>
+   </header>
+
+   <header class="page-header" role="banner">
+       <div class="inner">
+           <h1 class="site-logo">My Profile</h1>
+           <nav role="navigation">
+               <ul class="header-nav">
+                   <li><a href="#home">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#hobby">Hobby</a></li>
+                   <li><a href="#skills">Skills</a></li>
+                   <li><a href="#works">Works</a></li>
+                   <li><a href="#contact">Contact</a></li>
+               </ul>
+           </nav>
+       </div>
+   </header>
+
+  <section id="about" class="wrapper">
+      <h2 class="section-title">ABOUT ME</h2>
+      <p class="about-text">
+        はじめまして　<br>
+        2000年生まれ　宮城在住の20歳
+      </p>
+      <p class="about-text">
+        東北大学文学部二回生　社会学を専攻しています<br>
+        将来はユーザー第一のWebサイトを作るとともに、制作・管理も行うWebディレクターになりたいです　
+      </p>
+    </section>
+
+  <section id="hobby" class="wrapper">
+    <h2 class="section-title">My Hobby</h2>
+    <div class="hobby-flex">
+    <div class="hobby-content">
+      <a href="#"><img src="img/photo.png"></a>
+      <h3>Camera</h3>
+      <p>4年ほど写真を撮っています。<br>Fujifilm T-X30を愛用中。</p>
+    </div>
+    <div class="hobby-content">
+      <a href="#"><img src="img/programming.png"></a>
+      <h3>Programming</h3>
+      <p>独学で8か月程勉強中。<br>新しい知識を吸収することが好きです。</p>
+    </div>
+    <div class="hobby-content">
+      <a href="#"><img src="img/cafe.png"></a>
+      <h3>Cafe</h3>
+      <p>仙台のカフェを巡っています。<br>在学中に仙台のカフェを全て回ることが<br>目標です。</p>
+    </div>
+  </div>
+
+  </section>
+  <section id="skills" class="wrapper">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-flex">
+    <div class="skills-content">
+      <a href="#"><img src="img/html.png" alt="html"></a>
+      <h3>HTML5</h3>
+      <p>整然としたコーディングを作ります。</p>
+    </div>
+    <div class="skills-content">
+      <a href="#"><img src="img/css.png" alt="css"></a>
+      <h3>CSS3</h3>
+      <p>ユーザーが見やすいデザインを心掛けています。</p>
+    </div>
+    <div class="skills-content">
+      <a href="#"><img src="img/wordpress.jpg" alt="wordpress"></a>
+      <h3>Wordpress</h3>
+      <p>現在猛勉強中。</p>
+    </div>
+  </div>
+  </section>
+  <section id="works" class="wrapper">
+    <h2 class="section-title">Works</h2>
+    <div class="works-flex">
+         <p class="works-content"><img src="img/works1.png" alt="模写作品1"><strong>More</strong><span></span></p>
+         <p class="works-content"><img src="img/works2.png" alt="模写作品2"><strong>More</strong><span></span></p>
+         <p class="works-content"><img src="img/works3.png" alt="模写作品3"><strong>More</strong><span></span></p>
+         <p class="works-content"><img src="img/works4.png" alt="模写作品4"><strong>More</strong><span></span></p>
+         <p class="works-content"><img src="img/works5.png" alt="模写作品5"><strong>More</strong><span></span></p>
+         <p class="works-content"><img src="img/works6.png" alt="模写作品6"><strong>More</strong><span></span></p>
+    </div>
+  </section>
+  <section id="contact" class="wrapper">
+    <h2 class="section-title">Contact</h2>
+      <form class="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfIhVNUdYpoLkg43jqVBjmkvw9PzE4vAswEL3SH0UxN211v8Q/formResponse">
+        <input type="text" name="entry.2005620554" placeholder="NAME">
+        <input type="email" name="entry.1045781291" placeholder="Your Email">
+        <input type="text" name="entry.976244307" placeholder="Subject">
+        <textarea name="entry.839337160" placeholder="MESSAGE"></textarea>
+        <input type="submit" value="SEND">
+      </form>
+  </section>
+  <footer id="footer">
+    <p>&copy My Profile</p>
+  </footer>
+
+ </body>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAoOGt2cqrHy51NK0pc5scjGR5-SATDpDQ",
+    authDomain: "myprofile-81ab0.firebaseapp.com",
+    projectId: "myprofile-81ab0",
+    storageBucket: "myprofile-81ab0.appspot.com",
+    messagingSenderId: "317544513709",
+    appId: "1:317544513709:web:b2a39f893d81dc31f48624",
+    measurementId: "G-NZPDJP5QVE"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+ </html>
