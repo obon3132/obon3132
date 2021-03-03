@@ -130,7 +130,7 @@ h3{
 section1 ABOUT
 ---------------------------------------*/
 #about{
-  height: 80vh;
+  margin-bottom: 50px;
 }
 #about h2{
   padding-top: 50px;
@@ -292,7 +292,6 @@ footer
 #about {
   padding-left: 10px;
   padding-right: 10px;
-  margin-bottom: 20px;
 }
 #about p{
   font-size: 0.9rem;
