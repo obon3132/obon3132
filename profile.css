@@ -286,6 +286,9 @@ footer
 レスポンシブ
 ---------------------------------*/
 @media screen and (max-width: 960px) {
+.slideshow {
+      height: 75vh;
+  }
 .header-nav{
     display: none;
   }
@@ -314,6 +317,9 @@ footer
 
 
 @media screen and (max-width: 600px) {
+.slideshow {
+      height: 50vh;
+  }
 #about .about-text{
   font-size: 0.875rem;
   }
